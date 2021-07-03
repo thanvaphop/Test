@@ -1,0 +1,207 @@
+/*.graph{
+}*/
+
+/*#map{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}*/
+
+#valuesTable{
+	background-color: #6699FF;
+	background: rgba(0, 0, 0, 0.7);
+	position: fixed;
+	left: 1%;
+	top: 50px;
+	height: 100%;
+	width: 23%;
+	color: white;
+	z-index: 1;
+	overflow: auto;
+}
+
+#lastupdated{
+	position: relative;
+	left: 10px;
+	font-size: 10px;
+}
+
+#locationheader{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-style: bold;
+	font-size: 25px;
+	position: relative;
+}
+#hiw {
+	max-width: 90%;
+	max-height: 90%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+  }
+  
+  
+  
+  .line-break {
+	height: 25px;
+  }
+  
+  .line-break-border {
+	border-top: 2px solid #c8c8c8;
+  }
+  
+  .image_navbar {
+	  padding: 10px 5px;
+  }
+  
+  .threedvisual {
+	  display: block;
+	  position: relative;
+	  margin-left: auto;
+	  margin-right: auto;
+  
+  }
+  
+  #image_wrap .captionjs.stacked {
+	  margin-left: auto;
+	  margin-right: auto;
+  }
+  
+  .captionjs.stacked figcaption {
+  background-color: rgba(0, 0, 0, 0.75);
+  color: #fff;
+  border: none;
+  }
+  
+  .captionjs figcaption {
+  font-size: 13px;
+  line-height: 1.5;
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+  border-top: none;
+  background-color: #eee;
+  }
+  
+  #aqiTable {
+	  width: 60%;
+	  display: block;
+	  margin-left:auto;
+	  margin-right:auto;
+  }
+  
+  .lead {
+	  margin-bottom: 5px;
+  }
+  
+  #dylosbox:hover {
+	  display: block;
+	  height: 100px;
+	  width: 100px;
+	  
+  }
+/*#legend{
+	position: relative;
+	left: 77%;
+	top: 60%;
+	width: 20%;
+
+	background-color: #6699FF;
+	background: rgba(0, 0, 0, 0.7);
+	color: white;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-style: bold;
+}
+
+.sublegend{
+	display: inline-block;
+
+}
+
+#legend_container{
+	position: absolute;
+	margin-left: 5px;
+}
+
+#legendtable{
+	position: absolute;
+	bottom: 70px;
+}
+
+#graphContainer{
+	z-index: -10;
+	position: fixed;
+	top: 90px;
+	width: 100%;
+}
+
+
+#toGraph{
+	color: black;
+	position: relative;
+	top: 10px;
+}
+
+#graphButton{
+	position: relative;
+}
+
+#logo{
+	height: 25%;
+	width: 25%;
+}
+
+#backToMap{
+	float: right;
+	position: relative;
+	right: 1%;
+	background-color: white;
+	height: 30px;
+	width: 40px;
+	z-index: 5;
+	color: gray;
+	font-size: x-small;
+	line-height: 10px;
+	text-align: center;
+	cursor: hand;
+}
+*/
+
+.values{
+	font-size: 22px;
+}
+
+table{
+	border-collapse:separate;
+	border-spacing:0px 0px;
+	font-style: bold;
+}
+
+
+table.table#temprh > tbody > tr > td {
+	border: 0;
+}
+
+
+#temprh {
+	padding-top: 10px;
+	font-size: 12px;
+}
+
+.table>tbody>tr>td.pollutantName {
+	border-top: 0px;
+
+}
+
+.table-condensed>tbody>tr>td {
+	padding: 0.5px;
+}
+
+.table-condensed>tbody>tr>td.pollutantFull {
+	padding-bottom: 5px;
+	font-size: 10px;
+}
+
+.pollutantValue {
+	text-align: right;
+}
